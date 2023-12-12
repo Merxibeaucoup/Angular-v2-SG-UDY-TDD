@@ -1,0 +1,19 @@
+nav {
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #333;
+    border-radius: 4px;
+
+    &:active {
+      background-color: #555;
+    }
+
+    &.active {
+      background-color: #04aa6d;
+      color: white;
+    }
+  }
+}

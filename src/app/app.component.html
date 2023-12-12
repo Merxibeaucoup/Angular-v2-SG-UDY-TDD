@@ -1,1 +1,13 @@
-<app-password-generator></app-password-generator>
+<nav>
+  <a
+    routerLink="/"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    ariaCurrentWhenActive="page"
+    >password</a
+  >
+  <a routerLink="/cards" routerLinkActive="active" ariaCurrentWhenActive="page"
+    >card</a
+  >
+</nav>
+<router-outlet></router-outlet>

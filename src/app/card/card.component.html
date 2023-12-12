@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="card" *ngFor="let item of cardData">
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <img src="{{ item.img }}" alt="" />
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media-content">
+        <p class="title is-4">{{ item.title }}</p>
+        <p class="subtitle is-6">&#64;{{ item.subtitle }}</p>
+      </div>
+      <div class="content">
+        {{ item.description }}
+      </div>
+    </div>
+  </div>
+</div>
